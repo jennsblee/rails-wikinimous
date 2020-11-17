@@ -10,6 +10,16 @@
   </head>
 
   <body>
-    <%= yield %>
+      <ul class="nav d-flex justify-content-between p-2 border-bottom">
+        <li class="nav-item">
+          <a class="nav-link" href="/articles">Wikinimous</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/articles/new">New Article</a>
+        </li>
+      </ul>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>

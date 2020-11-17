@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap/scss/bootstrap";
+
+.nav {
+  background-color: #F8F8F8;
+}
+.nav-link {
+  color: #838383;
+}
